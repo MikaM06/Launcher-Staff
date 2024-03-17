@@ -234,7 +234,7 @@
     display: block;
     width: 20px;
     height: 10px;
-    background: #bbb;
+    background: #ffffff;
     border: 4px solid var(--element-color);
     transition: background-color .2s, border .2s;
     border-radius: 18px;
