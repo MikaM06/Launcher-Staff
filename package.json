@@ -1,15 +1,7 @@
 {
     "name": "redstonia-launcher",
     "preductname": "Redstonia Launcher",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "version": "2.0.4",
-=======
-    "version": "2.0.3",
->>>>>>> 31bd706d37056f63cdab220f1f883c9590577293
-=======
-    "version": "2.0.1",
->>>>>>> parent of d612396 (publish 2.0.4)
     "description": "Launcher de Redstonia",
     "main": "src/app.js",
     "author": {
