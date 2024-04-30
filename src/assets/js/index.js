@@ -1,5 +1,5 @@
 /**
- * @author Luuxis
+ * @author Link
  * @license CC-BY-NC 4.0 - https://creativecommons.org/licenses/by-nc/4.0
  */
 const { ipcRenderer } = require('electron');
@@ -29,9 +29,9 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Je... vie...", "author": "Luuxis" },
-            { "message": "Salut je suis du code.", "author": "Luuxis" },
-            { "message": "Linux n'est pas un os, mais un kernel.", "author": "Luuxis" }
+            { "message": "Redstonia, le meilleur serveur MC", "author": "Link" },
+            { "message": "Tu veux jouer à la V5 de Redstonia ?", "author": "Link" },
+            { "message": "N’oublie pas de regarder notre wiki.", "author": "Link" }            
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
@@ -54,11 +54,11 @@ class Splash {
         this.setStatus(`Recherche de mise à jour...`);
 
         ipcRenderer.invoke('update-app').then().catch(err => {
-            return this.shutdown(`erreur lors de la recherche de mise à jour :<br>${err.message}`);
+            return this.shutdown(`Mince il y a eu un problème report ça à Link :<br>${err.message}`);
         });
 
         ipcRenderer.on('updateAvailable', () => {
-            this.setStatus(`Mise à jour disponible !`);
+            this.setStatus(`Nouvelle update du launcher.`);
             ipcRenderer.send('start-update');
         })
 
@@ -84,12 +84,12 @@ class Splash {
             this.startLauncher();
         }).catch(e => {
             console.error(e);
-            return this.shutdown("Aucune connexion internet détectée,<br>veuillez réessayer ultérieurement.");
+            return this.shutdown("Aucune connexion internet détectée,<br> connecte toi à internet et reviens.");
         })
     }
 
     startLauncher() {
-        this.setStatus(`Démarrage du launcher`);
+        this.setStatus(`Démarrage de Redstonia`);
         ipcRenderer.send('main-window-open');
         ipcRenderer.send('update-window-close');
     }
