@@ -31,12 +31,6 @@ class Launcher {
     }
 
     initLog() {
-        document.addEventListener('keydown', e => {
-            if (e.ctrlKey && e.shiftKey && e.keyCode == 73 || e.keyCode == 123) {
-                ipcRenderer.send('main-window-dev-tools-close');
-                ipcRenderer.send('main-window-dev-tools');
-            }
-        })
         new logger(pkg.name, '#7289da')
     }
 
