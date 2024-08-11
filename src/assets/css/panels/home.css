@@ -278,10 +278,10 @@
     position: absolute;
     right: -3;
     top: -2;
-    color: var(--element-color);
+    color: #ffffff;
     font-size: 1rem;
     height: calc(100% - 1px);
-    border: solid 3px var(--element-color);
+    border: solid 3px #d3d3d3;
     text-align: center;
     border-radius: 15px;
     padding: 0 0.5rem;

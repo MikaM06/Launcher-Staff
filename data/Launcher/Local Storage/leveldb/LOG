@@ -1,2 +1,3 @@
-2024/03/27-23:15:24.620 2ca8 Creating DB F:/Ordinateur/Redstonia-Launcher/data/Launcher\Local Storage\leveldb since it was missing.
-2024/03/27-23:15:26.664 2ca8 Reusing MANIFEST F:/Ordinateur/Redstonia-Launcher/data/Launcher\Local Storage\leveldb/MANIFEST-000001
+2024/08/10-04:00:46.695 a18 Reusing MANIFEST F:/Ordinateur/Redstonia-Launcher-editor/data/Launcher\Local Storage\leveldb/MANIFEST-000001
+2024/08/10-04:00:46.696 a18 Recovering log #3
+2024/08/10-04:00:46.696 a18 Reusing old log F:/Ordinateur/Redstonia-Launcher-editor/data/Launcher\Local Storage\leveldb/000003.log 
