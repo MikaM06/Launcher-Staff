@@ -1,7 +1,7 @@
 {
-    "name": "redstonia-launcher",
-    "preductname": "Redstonia Launcher",
-    "version": "2.1.5",
+    "name": "redstonia",
+    "preductname": "Redstonia",
+    "version": "2.1.6",
     "description": "Launcher de Redstonia",
     "main": "src/app.js",
     "author": {
@@ -9,12 +9,12 @@
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "https://redstonia.com/Redstonia-Launcher-WEB-Folder",
+    "url": "https://redstonia.com/Redstonia-WEB-Folder",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=false --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/Link34500/Redstonia-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/RedstoniaMC/Redstonia/master/src/assets/images/icon.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Link34500/Redstonia-Launcher.git"
+        "url": "git+https://github.com/RedstoniaMC/Redstonia.git"
     }
 }
