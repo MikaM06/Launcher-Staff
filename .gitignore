@@ -7,3 +7,5 @@ node-v*
 data
 .DS_Store
 src/assets/images/icon.png
+data
+.github
