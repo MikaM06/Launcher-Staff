@@ -1,11 +1,11 @@
 {
-    "name": "redstonia",
-    "preductname": "Redstonia",
+    "name": "earthqueststaff",
+    "preductname": "EarthQuest - Staff",
     "version": "2.1.6",
-    "description": "Launcher de Redstonia",
+    "description": "Launcher pour le Staff",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Link, Inc.",
+        "name": "luuxis, Link, MikaM06",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
